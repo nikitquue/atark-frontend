@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Train from "../components/Train.vue";
+import Register from "../components/Register.vue";
 
 Vue.use(VueRouter);
 
@@ -21,9 +21,9 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/About.vue")
   },
   {
-    path:'/train',
-    name:'train',
-    component: Train
+    path:'/register',
+    name:'register',
+    component: Register
   }
 ];
 
